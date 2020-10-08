@@ -1,0 +1,43 @@
+@media screen and (max-width:500px){
+
+
+.map-horaires {
+  display:block; 
+
+}
+
+.horaires{
+  margin-top: 20px;
+  width: 80%;
+}
+
+.map{
+  width: 100%;
+    height: 100%;
+}
+
+.map iframe{
+  width: 100%;
+
+  margin: auto;
+}
+.coteacote ul{
+  margin: auto;
+
+}
+.service{
+	display: block;
+}
+.imgTexte {
+  	
+ 	width: 80%;
+ 	
+ } 
+ .coteacote{
+  display: block;
+ }
+.horaires .coteacote{
+  display: flex;
+}
+ 
+}

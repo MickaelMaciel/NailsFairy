@@ -1,0 +1,230 @@
+
+*{
+	margin: auto;
+	padding: 0;
+	font-family: sans-serif;
+	/*background-color: #FCD5CE;*/
+}
+
+h2{
+	padding: 20px;
+	font-size: 2em;
+	color: #828884;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+h3{
+	padding: 10px;
+	font-weight: 700;
+ 	font-size: 1.3em; 
+}
+
+img {
+  box-shadow: 5px 10px 10px 0px;
+  border-radius: 10px;
+}
+/*---------HEADER*/
+
+/*On fixe le header et on s'assure qu'il prend 100% de la largeur*/
+header{
+	width: 100%;
+	/*position: fixed;*/
+}
+
+
+/*LOGO THE NAILS FAIRY*/
+body h1{
+color: #f9b0a0;
+padding-left: 20px;
+}
+
+
+
+nav{
+	text-align: right;
+	margin-bottom:1%;
+}
+
+nav a{
+	color:#f9b0a0;
+	margin: 0 2% 1% 0;
+	/*à modifier par la suite*/
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	text-decoration: none;
+ 	border-left: 2px solid #828884;
+ 	padding: 0 30px;
+}
+
+nav a:hover{
+	color: #828884;
+	/*background-color: #F4ACB7;*/
+}
+
+#tel{
+	color: #828884;
+	text-align: right;
+	font-family: Roboto;
+	font-size: 18px;
+	padding-top: 0.5%;
+	padding-right: 2%;
+}
+
+
+/*------Bannière*/
+
+#background{
+	width: 100%;
+	height: 450px;	
+
+}
+
+#background img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+  	box-shadow: none;
+  	border-radius: 0;
+}
+
+
+/*Fils d'ariane*/
+
+#ariane{
+
+
+}
+
+#ariane ol{
+	display: flex;
+	padding-left: 6%;
+
+}
+
+#ariane ol li{
+	margin: 5px;
+	
+}
+
+#ariane ol li a{
+	text-decoration: none;
+	color: red;
+}
+
+#ariane ol li a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+
+
+/*prestation*/
+
+#presta {
+  background-color: #FCD5CE;
+}
+
+.coteacote{
+  display: flex;
+  }
+
+.coteacote img{ 
+     width: 100%; 
+     height: auto;
+     border-radius: 2%;
+
+ }
+
+.imgTexte {
+  box-sizing: border-box;
+ 	width: 40%;
+ 	padding: 15px 20px 15px 20px;
+ 	color: #828884;
+ } 
+
+
+/*TEMOIGNAGE*/
+#temoignages{
+/*	margin: auto;*/
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#temoignages img{
+	height: 400px;
+	/*width: 200px;*/
+	padding:0 5%; 
+
+}
+
+
+/*Carte et horaires*/
+
+
+.map{
+	height: 200px;
+	width: 200px;
+}
+
+iframe{
+	width: 100%;
+	height:100%;
+}
+
+.horaires {
+  color: #828884;
+  text-align: center;
+  font-style: italic;
+  box-sizing: border-box;
+ 	width: 40%;
+ padding: 15px 10%;
+ margin: auto;
+}
+
+ul, li{
+list-style-type: none;
+padding: 10px 0;
+}
+
+
+
+
+
+
+/*RESEAUX SOCIAUX*/
+.fa-snapchat:hover,.fa-instagram:hover,.fa-facebook:hover{
+  color: #F4ACB7;
+}
+
+.link-footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 30px;
+}
+
+/*Troisième partie contenant les mentions légales*/
+
+.footer-mentions {
+  text-align: center;
+     padding: 55px 0;
+     background-color: #C4C4C4;
+  }
+
+.footer-mentions a{
+    text-decoration: none;
+     background-color: #C4C4C4;
+     color: black;
+}
+
+@media screen and (max-width:500px){
+
+nav{
+  display: none;
+}
+
+}
+
+
